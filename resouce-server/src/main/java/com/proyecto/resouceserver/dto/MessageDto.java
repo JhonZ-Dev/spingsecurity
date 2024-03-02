@@ -1,4 +1,4 @@
 package com.proyecto.resouceserver.dto;
 
-public record MessageDto() {
+public record MessageDto(String message) {
 }
