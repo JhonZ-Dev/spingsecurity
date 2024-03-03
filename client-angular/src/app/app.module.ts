@@ -10,6 +10,7 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { ResourceInterceptor } from './interceptors/resource.interceptor';
 import { UserComponent } from './components/user/user.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AdminComponent } from './components/admin/admin.component';
     AuthorizedComponent,
     MenuComponent,
     UserComponent,
-    AdminComponent
+    AdminComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
