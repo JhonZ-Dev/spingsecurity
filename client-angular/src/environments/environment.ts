@@ -13,7 +13,7 @@ export const environment = {
     token_url:'http://localhost:9000/oauth2/token',
     grant_type:'authorization_code',
     resource_url:'http://localhost:8080/resource/',
-    logout_url:'http://localhost:9000/cerrar',
+    logout_url:'http://localhost:9000/salir',
 
   };
   
