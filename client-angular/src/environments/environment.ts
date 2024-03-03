@@ -8,12 +8,11 @@ export const environment = {
     response_type:'code',
     response_mode:'form_post',
     code_challenge_method:'S256',
-    code_challenge:'V3_1ipyGPUg9MtGDOpWSNdKXE_UrxuZZr2L3NNcebLk',
-    code_verifier:'jYsMS1OxtyKw66BJDVWXLXjKZRWTtURXLfOyUaPgNbj',
     token_url:'http://localhost:9000/oauth2/token',
     grant_type:'authorization_code',
     resource_url:'http://localhost:8080/resource/',
     logout_url:'http://localhost:9000/salir',
+    secret_pkce:'secret'
 
   };
   
